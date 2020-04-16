@@ -5,12 +5,12 @@ variable "instance_type" {
 
 variable "ami_image" {
   type = "string"
-  default = "ami-09568291a9d6c804c"
+  default = "ami-07ebfd5b3428b6f4d"
 }
 
 variable "ecs_key" {
   type = "string"
-  default = "demo"
+  default = "chave-fiap"
 }
 
 variable "github_oauth_token" {
