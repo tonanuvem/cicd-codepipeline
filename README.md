@@ -1,11 +1,9 @@
-# demo-cicd-codepipeline
-## Blog
+# cicd-codepipeline
 
-https://medium.com/@vankhoa011/how-to-apply-ci-cd-by-using-github-codebuild-codepipeline-and-ecs-58192b8322a9
 
-## Terraform Create ECS with CodePipeline
+## Terraform cria a estrutura do ECS com CodePipeline
 
-You can change variables in `variables.tfvars` , 
+Definições das variáveis em: `variables.tfvars` , 
 
 For example: I want to create a VPC with CIDR ( 10.0.0.0/16 ), two public subnet and two private subnet.
 
@@ -25,10 +23,15 @@ github_oauth_token = "github_oauth_token"
 
 ```
 
-Then run
+Execução:
 
 ```
 terraform init
 terraform plan -var-file=variables.tfvars
 terraform apply -var-file=variables.tfvars
 ```
+
+
+## Baseado no Blog
+
+https://medium.com/@vankhoa011/how-to-apply-ci-cd-by-using-github-codebuild-codepipeline-and-ecs-58192b8322a9
